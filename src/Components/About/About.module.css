@@ -1,5 +1,43 @@
 .about {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: black;
+  font-size: 20px;
+  padding: 150px 0 75px;
+}
+
+.about div {
+  padding: 20px;
+  max-width: 32rem;
+  flex: 1;
+}
+
+.imgWrapper {
+	border-radius: 10px;
+}
+
+.aboutContainer {
+  letter-spacing: 1.1px;
+  line-height: 1.6;
+}
+
+.aboutContainer h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.aboutContainer h4 {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  color: grey;
+}
+
+@media screen and (max-width: 768px) {
+  .about div {
+    max-width: initial;
+    flex: initial;
+  }
 }

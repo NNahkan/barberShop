@@ -1,0 +1,16 @@
+.infoSection {
+	background-color: #243358;
+	margin: 150px 3%;
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	padding: 4rem;
+	color: white;
+}
+
+.info div {
+	flex: 1;
+}
