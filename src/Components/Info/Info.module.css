@@ -5,12 +5,36 @@
 
 .info {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
-	gap: 30px;
+	gap: 5rem;
 	padding: 4rem;
 	color: white;
 }
 
+
 .info div {
 	flex: 1;
+	min-width: 16rem;
+}
+
+.infoLeft {
+	display: flex;
+	flex-direction: column;
+	padding-right: 1rem;
+}
+
+.infoLeft > p {
+	margin: 1.2rem 0;
+	color: grey;
+}
+
+.infoLeftWrapper {
+	display: flex;
+	margin-top: 1.2rem;
+	gap: 1rem;
+}
+
+.infoLeftWrapper a {
+	color: white;
 }

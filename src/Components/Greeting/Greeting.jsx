@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import s from '../Greeting/Greeting.module.css'
-import Navbar from "../Navbar";
+import Navbar from "../Navbar/Navbar";
 
 class Greeting extends Component {
   render() {

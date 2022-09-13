@@ -1,0 +1,37 @@
+.reviewHeader {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: grey;
+}
+
+.reviewHeader h1 {
+  background: -webkit-linear-gradient(
+    left,
+    rgb(128, 4, 0) 40%,
+    rgb(0, 119, 255) 60%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.reviewWrapper {
+  margin: 100px 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.reviewWrapper div {
+  flex: 1;
+}
+
+.imgWrapper img {
+  border-radius: 1rem;
+}
+
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
